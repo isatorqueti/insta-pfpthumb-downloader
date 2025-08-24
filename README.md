@@ -72,6 +72,6 @@ Este projeto foi desenvolvido por:
 - **Linkedin:** https://www.linkedin.com/in/isadoratorqueti/
 
 ## 📜 Licença
-
 Este projeto está licenciado sob a licença [MIT](~link~). Sinta-se à vontade para usar, modificar e distribuir o código.
+
 ---
