@@ -1,9 +1,9 @@
 import streamlit as st
-from st_pages import get_nav_from_toml
 
-st.set_page_config(page_title="PFP/Thumb Downloader", layout="wide", page_icon="🖼️")
+nav = st.navigation([
+    st.Page("pages/profile_picture.py", title="Instagram Profile Picture", icon="👤"),
+    st.Page("pages/thumbnail_reels.py", title="Thumbnail Reels", icon="📸"), 
+    st.Page("pages/thumbnail_tiktok.py", title="Thumbnail TikTok", icon="🎬")
+])
 
-nav = get_nav_from_toml(".streamlit/pages.toml")
-pg = st.navigation(nav)
-
-pg.run()
+nav.run()
