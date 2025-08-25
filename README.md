@@ -16,15 +16,15 @@ O projeto foi desenvolvido a partir de uma demanda real no ambiente de trabalho 
 
 ## 📁 Estrutura
 ```
-├── app.py # Configurações da navegação e páginas do Streamlit
+├── app.py                    # Configurações da navegação e páginas do Streamlit
 └── pages/
     ├── profile_picture.py    # Página: download de PFP
     ├── thumbnail_reels.py    # Página: download de thumbnail de Reels (Instagram)
-    └── thumbnail_tiktok.py # Página: download de thumbnail do TikTok
-├── utils.py # Funções utilitárias
-├── .gitignore # Arquivos a serem ignorados pelo Git
-├── requirements.txt # Lista de bibliotecas necessárias para o projeto
-└── pycache/ # Cache do Python (gerado automaticamente)
+    └── thumbnail_tiktok.py   # Página: download de thumbnail do TikTok
+├── utils.py                  # Funções utilitárias
+├── .gitignore                # Arquivos a serem ignorados pelo Git
+├── requirements.txt          # Lista de bibliotecas necessárias para o projeto
+└── pycache/                  # Cache do Python (gerado automaticamente)
 ```
 
 ## ⚙️ Como Executar Localmente
