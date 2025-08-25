@@ -71,6 +71,6 @@ Este projeto foi desenvolvido por:
 - **Linkedin:** https://www.linkedin.com/in/isadoratorqueti/
 
 ## 📜 Licença
-Este projeto está licenciado sob a licença [MIT](~link~). Sinta-se à vontade para usar, modificar e distribuir o código.
+Este projeto está licenciado sob a licença [MIT](https://github.com/isatorqueti/socials-pfpthumb-downloader/blob/main/LICENSE). Sinta-se à vontade para usar, modificar e distribuir o código.
 
 ---
