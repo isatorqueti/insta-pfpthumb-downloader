@@ -4,18 +4,17 @@ Este projeto é uma aplicação desenvolvida em **Python** e **Streamlit** para 
 
 O objetivo do projeto foi fornecer uma ferramenta prática e rápida para baixar imagens públicas sem necessidade de login ou cookies.
 
-O aplicativo web está disponível publicamente no Streamlit Cloud.
-🔗 ~link aqui~
+O projeto roda apenas localmente porque algumas bibliotecas utilizadas (como o Instaloader) não funcionam em servidores online como o Streamlit Cloud, que impõem restrições de rede. Dessa forma, a aplicação deve ser executada no ambiente local para garantir acesso completo às funcionalidades.
 
-## 📌 Contexto do Projeto
-O projeto foi desenvolvido a partir de uma demanda real do time de Business Intelligence da Publination, empresa da qual faço parte. O objetivo é facilitar a inserção das imagens em relatórios e reports de clientes. Antes, o time precisava tirar print da tela ou recorrer a sites de externos com links suspeitos e anúncios invasivos.
+## 📌 Contexto
+O projeto foi desenvolvido a partir de uma demanda real no ambiente de trabalho do qual faço parte, onde a inserção das imagens em relatórios e reports de clientes fazem parte do dia a dia. Antes, era necessário tirar prints de tela ou recorrer a sites de externos com links suspeitos e anúncios invasivos.
 
 ## 🚀 Funcionalidades 
 - Preview de imagens antes de fazer o download diretamente na interface (vai ajudar a garantir que o usuário faça download da imagem correta).
 - Download de **PFP** do Instagram a partir do nome de usuário.
 - Download de **Thumbnails** de posts do Instagram ou TikTok a partir da URL.
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura
 ```
 ├── app.py # Configurações da navegação e páginas do Streamlit
 ├── profile_picture.py # Página: download de PFP
